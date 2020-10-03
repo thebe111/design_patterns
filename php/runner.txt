@@ -1,0 +1,1 @@
+docker container run -it --rm -v /home/gabriel/projects/design_patterns/php:/app -w /app php:7.4-cli php design_pattern.php
