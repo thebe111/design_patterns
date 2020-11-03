@@ -47,13 +47,13 @@ class Builder(ABC):
 
 class Burguer:
     def __init__(self) -> None:
-        self.parts = []
+        self._parts = []
 
     def add(self, item: Any) -> None:
-        self.parts.append(item)
+        self._parts.append(item)
 
     def show_format(self) -> None:
-        for item in self.parts:
+        for item in self._parts:
             print(item)
 
 
